@@ -1,0 +1,65 @@
+body {
+  background: rgb(236, 231, 231);
+}
+
+header {
+  background: white;
+}
+
+nav {
+  background: rgb(243, 169, 161);
+}
+
+nav a:nth-child(2) {
+  background: black;
+  color: yellow
+}
+
+header,
+nav {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  background: rgb(181, 236, 236);
+  border-radius: 5px;
+  padding: 3px 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.center {
+  background: silver;
+  width: 7rem;
+  padding: 20px;
+  margin: auto;
+}
+
+.inline-block-center {
+  border: 1px solid green;
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  max-width: 100%;
+  text-align: left;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+section div {
+  background: rgb(93, 220, 243);
+  padding: 15px;
+  border: 1px solid yellow;
+  max-width: 125px;
+  margin: 5px;
+}
